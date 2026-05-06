@@ -27,9 +27,9 @@ module.exports = defineConfig({
       return config;
     }
   },
-  reporter: 'cypress-qase-reporter',
-  reporterOptions: {
-    mode: qaseEnabled ? 'testops' : 'off',
+  reporter: qaseEnabled ? 'cypress-qase-reporter' : 'spec',
+  reporterOptions: qaseEnabled ? {
+    mode: 'testops',
     debug: process.env.QASE_DEBUG === 'true',
     testops: {
       project: process.env.QASE_TESTOPS_PROJECT,
@@ -55,5 +55,5 @@ module.exports = defineConfig({
         }
       }
     }
-  }
+  } : {}
 });
