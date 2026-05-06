@@ -1,0 +1,12 @@
+{
+  "verifiedUser": {
+    "name": "Movie Smith",
+    "email": "omoviesmith+1@gmail.com",
+    "password": "set-via-env"
+  },
+  "emailAliases": [
+    "omoviesmith+2@gmail.com",
+    "omoviesmith+3@gmail.com",
+    "omoviesmith+4@gmail.com"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "mode": "testops",
+  "fallback": "report",
+  "testops": {
+    "project": "YOUR_PROJECT_CODE",
+    "api": {
+      "token": "YOUR_API_TOKEN"
+    },
+    "run": {
+      "title": "Termp Cypress Automated Run"
+    },
+    "batch": {
+      "size": 100
+    }
+  },
+  "report": {
+    "driver": "local",
+    "connection": {
+      "local": {
+        "path": "./build/qase-report",
+        "format": "json"
+      }
+    }
+  },
+  "framework": {
+    "cypress": {
+      "screenshotsFolder": "cypress/screenshots",
+      "videosFolder": "cypress/videos",
+      "browser": {
+        "addAsParameter": true,
+        "parameterName": "browser"
+      }
+    }
+  }
+}

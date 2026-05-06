@@ -1,0 +1,17 @@
+{
+  "name": "qase-termp-cypress",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cypress functional test automation framework for stage.termp.com with optional Qase reporting.",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:verify": "cypress verify"
+  },
+  "devDependencies": {
+    "cypress": "^15.14.2",
+    "cypress-qase-reporter": "^3.6.0",
+    "dotenv": "^16.4.7"
+  }
+}

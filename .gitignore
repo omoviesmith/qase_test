@@ -1,0 +1,9 @@
+node_modules/
+.env
+cypress/downloads/
+cypress/screenshots/
+cypress/videos/
+build/
+.playwright-mcp/
+*.png
+npm-debug.log*
