@@ -1,0 +1,3 @@
+Welcome to Termp.
+This is a sample document for translation workflow testing.
+Please review each segment before submitting the translation.

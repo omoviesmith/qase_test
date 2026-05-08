@@ -7,3 +7,4 @@ build/
 .playwright-mcp/
 *.png
 npm-debug.log*
+PROJECT_PLAN.md

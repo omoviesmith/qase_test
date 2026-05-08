@@ -7,11 +7,13 @@
     "cy:open": "node scripts/cypress.js open",
     "cy:run": "node scripts/cypress.js run",
     "cy:run:chrome": "node scripts/cypress.js run --browser chrome",
+    "cy:qase": "node scripts/cypress.js qase",
     "cy:verify": "node scripts/cypress.js verify"
   },
   "devDependencies": {
     "cypress": "^14.5.4",
     "cypress-qase-reporter": "^3.6.0",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "mocha": "^11.7.5"
   }
 }

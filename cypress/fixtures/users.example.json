@@ -2,7 +2,23 @@
   "verifiedUser": {
     "name": "Movie Smith",
     "email": "omoviesmith+1@gmail.com",
-    "password": "set-via-env"
+    "role": "Admin",
+    "password": "set-via-env",
+    "mfaSecret": "set-via-env"
+  },
+  "translator": {
+    "name": "Movie Translator",
+    "email": "omoviesmith+2@gmail.com",
+    "role": "Translator",
+    "password": "set-via-env",
+    "mfaSecret": "set-via-env"
+  },
+  "projectManager": {
+    "name": "Movie Project Manager",
+    "email": "omoviesmith+3@gmail.com",
+    "role": "Project Manager",
+    "password": "set-via-env",
+    "mfaSecret": "set-via-env"
   },
   "emailAliases": [
     "omoviesmith+2@gmail.com",
